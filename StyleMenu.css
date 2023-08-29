@@ -28,13 +28,10 @@
     font-family: inherit;
     margin: 0;
 }
-/* Style the subnav content - positioned absolute */
+/* Style the subnav content */
 .subnav-content {
     display: none;
     position: absolute;
-    left: 0;
-    background-color: #9a1271;
-
 }
 
 /* Style the subnav links */
@@ -42,6 +39,12 @@
     float: left;
     color: white;
     text-decoration: none;
+    background-color: #9a1271;
+    border: 1px black;
+    padding: 10px 15px;
+    cursor: pointer;
+    width: 50%;
+    display: block;
 }
 
 .topnav a:hover, .subnav:hover .subnavbtn {
