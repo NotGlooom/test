@@ -1,13 +1,21 @@
 #logo{
     border: 1px solid;
-    height: 50px;
+    height: 100px;
     width: 29%;
     background-color: aqua;
+    overflow: hidden;
+}
+
+#logo img{
+    display: block;
+    margin: auto;
+    width: 50%;
+    position: relative;
 }
 
 #position-0{
     border: 1px solid;
-    height: 50px;
+    height: 100px;
     width: 70%;
     background-color: blueviolet;
     position: absolute;
@@ -15,15 +23,36 @@
     right: 6px;
 }
 
-#position-1{
-    border: 1px solid;
-    height: 40px;
+.position-1{
+    height: 44px;
     width: 100%;
-    background-color: #9a1271;
+    background-color: #333;
     margin-top: 8px;
     position: sticky;
     top: 0;
     z-index: 1;
+}
+
+/* Style de les liens de le menu de navigation */
+.position-1 a{
+    float: left;
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+/* Change la couleur des liens hover */
+.position-1 a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+/* Style du active lien*/
+.position-1 a.active{
+    background-color: #04aa6d;
+    color: white;
 }
 
 #banner{
@@ -32,6 +61,11 @@
     width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
+    overflow: hidden;
+}
+
+#banner img{
+    width: 100%;
 }
 
 .container{
@@ -44,6 +78,11 @@
     height: 200px;
     width: 48%;
     border-radius: 10px;
+    overflow: hidden;
+}
+
+#position-3{
+    width: 48%;
 }
 
 #position-8{
@@ -52,6 +91,12 @@
     width: 25%;
     position: absolute;
     top: 0;
+}
+
+#position-8 p{
+    font-size: 25px;
+    padding: 10px;
+    text-align: justify;
 }
 
 #position-7{
