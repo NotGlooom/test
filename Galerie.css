@@ -1,0 +1,26 @@
+#gallery{
+    margin: auto;
+    background-color: #bfbebe;
+    border-radius: 20px;
+    border: 1px solid;
+    height: 800px;
+    width: 800px;
+}
+
+#gallery div{
+    margin: 5px;
+    border-radius: 15px;
+    float: left;
+    width: 230px;
+    overflow: hidden;
+}
+
+#gallery div:hover{
+    width: 360px;
+}
+
+div .image img {
+    float: left;
+    width: 100%;
+    height: auto;
+}
